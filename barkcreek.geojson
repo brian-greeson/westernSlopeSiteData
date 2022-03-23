@@ -1,1 +1,15 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"type":"launch"},"geometry":{"type":"Point","coordinates":[-109.15462017059326,39.367748311894196]}},{"type":"Feature","properties":{"type":"parking"},"geometry":{"type":"Point","coordinates":[-109.1546094417572,39.368304032057964]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "type": "launch" }, "geometry": { "type": "Point", "coordinates": [-109.15462017059326, 39.367748311894196] } },
+    { "type": "Feature", "properties": { "type": "parking" }, "geometry": { "type": "Point", "coordinates": [-109.1546094417572, 39.368304032057964] } },
+    {
+      "type": "Feature",
+      "properties": { "type": "landing" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.14346218109131, 39.34083621237553]
+      }
+    }
+  ]
+}
